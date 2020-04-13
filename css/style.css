@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box; 
+}
+
+html{
+    font-size: 10px; /* tamanho da fonte */ 
+}
+
+body{
+    font-family: 'Patrick Hand', cursive;
+    margin: 0;
+}
+
+/*LAYOUT*/
+
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+    
+}
+
+/*FONTES*/
+
+h3{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*BOTÃO*/
+
+.btn{
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    margin: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.btn-branco{
+    color: #7E459B;
+    background-color: white;
+}
+.btn-roxo{
+    color: #7E459B;
+    border: 1px solid #7E459B;
+    
+}
+
+/*UTILIDADES*/
+
+
+/*HEADER BANNER*/
+
+.banner{
+    background: url(../img/AllanaBannerPicture.jpg) no-repeat;
+    background-size: cover;
+    height: 115vh;
+    text-align: center;
+    padding-top: 30rem;
+    color: white;
+    }
+
+.banner__titulo{
+    font-size: 6rem;
+    margin-top: 250px;
+    text-align: center;
+    text-shadow: 2px 2px 3px black, 2px 2px 5px purple;
+  
+}
+
+
+/*SEÇÃO SOBRE*/
+
+.sobre__titulo,.cabecalho__footer{
+    font-size: 4rem;
+    color: #C4C4C4;
+    text-align: center;
+    text-shadow:2px 2px 3px black;
+
+}
+
+.sobre-descricao,.sobre-habilidades{
+    width: 40%;
+    text-align: justify;
+    display: inline-block;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.sobre-descricao__destaque, .sobre-habilidades__lista, li{
+    font-size: 2.1rem;
+}
+.sobre-habilidades{
+    margin-left: 10rem;
+    text-align: justify;
+}
+.sobre-habilidades__lista{
+    padding-left: 2rem;
+    line-height: 2em;
+    font-size: 1.6rem;
+}
+
+/*REDES SOCIAIS*/
+
+.footer{
+    text-align: center;
+}
+
+.redes-sociais__link{
+    display: inline-block;
+    width: 20%;
+    background-color: #7E459B;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: white;
+}
+.redes-sociais__img, .redes-sociais__titulo{
+    margin-bottom: .5rem;
+
+}
+
+.footer-copyright__texto{
+    color: #7E459B;
+    font-weight: lighter;
+    margin-top: 3rem;
+    padding: 1rem;
+}
