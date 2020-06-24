@@ -60,19 +60,18 @@ a{
 /*HEADER BANNER*/
 
 .banner{
-    background: url(../img/AllanaBannerPicture.jpg) no-repeat;
-    background-size: cover;
-    height: 115vh;
-    text-align: center;
-    padding-top: 30rem;
-    color: white;
+    background: url(../img/IMG-20170416-WA0020.jpg) no-repeat;
+    background-size: contain;
+    height: 90vh;
+    
     }
 
 .banner__titulo{
-    font-size: 6rem;
-    margin-top: 250px;
-    text-align: center;
-    text-shadow: 2px 2px 3px black, 2px 2px 5px purple;
+    font-size: 7rem;
+    padding-top: 220px;
+    text-align: right;
+    color: rgb(187, 177, 199);
+    text-shadow: 1px 2px 2px rgb(71, 10, 121);
   
 }
 
@@ -81,15 +80,20 @@ a{
 
 .sobre__titulo,.cabecalho__footer{
     font-size: 4rem;
-    color: #C4C4C4;
+    /* color:  rgb(146, 142, 151); */
     text-align: center;
-    text-shadow:2px 2px 3px black;
-
+    text-shadow: 1px 1px 1px rgb(71, 10, 121);
+    background: rgba(195, 109, 221, 0.39);
+    border-radius: 45px;
+    padding: 8px;
+    margin: 50px;
+    color:white;
+    transition: 800ms;
 }
 
 .sobre-descricao,.sobre-habilidades{
     width: 40%;
-    text-align: justify;
+    text-align: center;
     display: inline-block;
     line-height: 1.5;
     vertical-align: top;
@@ -133,4 +137,11 @@ a{
     font-weight: lighter;
     margin-top: 3rem;
     padding: 1rem;
+}
+
+.titulo-destacado{
+    
+    background: rgba(195, 109, 221, 0.637);
+    font-size: 4.3rem;
+    text-shadow: 2px 2px 2px black;
 }
